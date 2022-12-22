@@ -63,17 +63,3 @@ $(window).on('load', function() {
 $(window).on('load', function() {
     $('#modal-tentar-novamente-entrega').modal('show');
 });
-
-var password = document.getElementById("inputSenha");
-var confirm_password = document.getElementById("confirmarSenha");
-
-function validatePassword(){
-  if(password.value != confirm_password.value) {
-    confirm_password.setCustomValidity("Senhas diferentes!");
-  } else {
-    confirm_password.setCustomValidity('');
-  }
-}
-
-password.onchange = validatePassword;
-confirm_password.onkeyup = validatePassword;

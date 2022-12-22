@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title><?= $titulo; ?></title>
+        <title><?= 'Titulo' ?></title>
         <link href="/assets/css/styles.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/datatable.css" rel="stylesheet" type="text/css"/>
     </head>

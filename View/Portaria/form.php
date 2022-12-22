@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="card mb-4">
 				<div class="card-body">
-					Cadastro de Senha
+					Nessa tela você pode cadastrar sua senha.
 				</div>
 			</div>
 		</div>

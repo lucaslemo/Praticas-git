@@ -22,12 +22,20 @@
                                 <input name="senha" class="form-control" id="inputSenha" type="password" placeholder="senha" required>
                                 <label for="inputSenha">Senha</label>
                             </div>
-							<div class="form-floating mb-3">
-                                <input class="form-control" id="confirmarSenha" type="password" placeholder="senha" required>
-                                <label for="confirmarSenha">Confirme sua Senha</label>
+                            <div class="form-floating mb-1">
+                                <input class="form-control border" id="confirmSenha" type="password" placeholder="confirme sua senha" required>
+                                <label for="confirmSenha">Confirme sua Senha</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <span class="text-danger d-none" id="text-tam">
+                                    <small><p class="mb-1">A senha deve possuir no mínimo 4 caracteres</p></small>
+                                </span>
+                                <span class="text-danger d-none" id="text-erro">
+                                    <small><p class="mb-1">As senhas não são iguais</p></small>
+                                </span>
                             </div>
                             <div class="d-flex align-items-center justify-content-center mt-4 mb-0">
-                                <button class="btn btn-primary">Cadastrar</button>
+                                <button class="btn btn-primary" id="botaoConfirmar" disabled>Cadastrar</button>
                             </div>
                         </form>
                     </div>

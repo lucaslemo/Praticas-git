@@ -50,7 +50,7 @@
 				<div class="col-xl-3 col-md-6">
 					<div class="card bg-danger text-white mb-4">
 						<div class="card-body">
-							<h2><?= rand_int(1, 20); ?></h2>
+							<h2><?= random_int(1, 20); ?></h2>
 							Chaves Atrasadas
 							<p><small><?= 'nda' ?>% de atrasos totais</small></p>                                        
 						</div>
@@ -64,7 +64,7 @@
 				<div class="col-xl-3 col-md-6">
 					<div class="card bg-warning text-white mb-4">
 						<div class="card-body">
-							<h2><?= rand_int(1, 20); ?></h2>
+							<h2><?= random_int(1, 20); ?></h2>
 							Chaves Pendentes do dia
 							<p><small><?= 'nda' ?>% ativo</small></p>                                        
 						</div>
@@ -78,7 +78,7 @@
 				<div class="col-xl-3 col-md-6">
 					<div class="card bg-success text-white mb-4">
 						<div class="card-body">
-							<h2><?= rand_int(1, 20); ?></h2>
+							<h2><?= random_int(1, 20); ?></h2>
 							Chaves Devolvidas Hoje
 							<p><small><?= 'nda' ?>% de sucesso</small></p>                                        
 						</div>

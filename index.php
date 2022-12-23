@@ -16,9 +16,10 @@ switch($url){
 	case '/form':
 		require __DIR__ . '/View/Portaria/form.php';
 		break;
+	case '/tabela':
+		require __DIR__ . '/View/Portaria/tabela.php';
+		break;
 	default:
 		echo('Not Found 404');
 		exit();
 }
-
-	

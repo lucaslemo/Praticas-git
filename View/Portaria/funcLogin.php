@@ -7,7 +7,12 @@ if (isset($_POST['login']) and isset($_POST['senha'])){
 		header('Location: /form');
 		exit();
 	} else {
-		$_SESSION['mensagem'] = "Login ou senha incorretos";
+		if ($login != 'lucaslemo' && $senha != 'senha')
+			$_SESSION['mensagem'] = "Login e senha incorretos";
+		else if ($senha != 'senha')
+			$_SESSION['mensagem'] = "Senha incorreta";
+		else
+			$_SESSION['mensagem'] = "Login incorreto";
 		$_SESSION['tipo-mensagem'] = 'danger';
 		header('Location: /login');
 		exit();

@@ -9,9 +9,9 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Início
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/tabela">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>
-                                Autorizações
+                                Tabela
                             </a>
                         </div>
                     </div>

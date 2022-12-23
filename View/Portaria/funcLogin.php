@@ -4,7 +4,7 @@ if (isset($_POST['login']) and isset($_POST['senha'])){
 	$login = $_POST['login'];
 	$senha = $_POST['senha'];
 	if ($login == 'lucaslemo' and $senha == 'senha'){
-		header('Location: /form');
+		header('Location: /dashboard');
 		exit();
 	} else {
 		if ($login != 'lucaslemo' && $senha != 'senha')

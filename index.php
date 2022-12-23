@@ -7,6 +7,9 @@ switch($url){
 	case '/':
 		require __DIR__ . '/View/Portaria/login.php';
 		break;
+	case '/dashboard':
+		require __DIR__ . '/View/Portaria/dashboard.php';
+		break;
 	case '/login':
 		require __DIR__ . '/View/Portaria/login.php';
 		break;

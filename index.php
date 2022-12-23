@@ -1,2 +1,24 @@
 <?php
-	require __DIR__ . '/View/Portaria/form.php';
+if (!isset($_SESSION)){
+	session_start();
+}
+$url = $_SERVER['REQUEST_URI'];
+switch($url){
+	case '/':
+		require __DIR__ . '/View/Portaria/login.php';
+		break;
+	case '/login':
+		require __DIR__ . '/View/Portaria/login.php';
+		break;
+	case '/valida-login':
+		require __DIR__ . '/View/Portaria/funcLogin.php';
+		break;
+	case '/form':
+		require __DIR__ . '/View/Portaria/form.php';
+		break;
+	default:
+		echo('Not Found 404');
+		exit();
+}
+
+	
